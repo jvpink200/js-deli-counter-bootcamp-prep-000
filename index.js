@@ -9,7 +9,7 @@ var takeANumber = function(katzDeli, newCustomer) {
 
   function nowServing(deliLine){
   if(deliLine.length === 0){
-    console.log('There is nobody waiting to be served!');
+    return "There is nobody waiting to be served!"
   } else {
     console.log('Currently serving ' + deliLine.shift() + '.');
   }
