@@ -16,7 +16,7 @@ var takeANumber = function(katzDeli, newCustomer) {
       for (var i = 0; i < arr.length; i++) {
         empty.push(arr.indexOf(arr[i]) + 1, '.', arr[i], ',');
       }
-      return 'The line is currently:' + empty.join(' ');
+      return 'The line is currently: ' + empty.join('');
     }
   }
   currentLine(katzDeliLine); // "The line is currently: 1. Ada, 2. Grace, 3. Kent"
