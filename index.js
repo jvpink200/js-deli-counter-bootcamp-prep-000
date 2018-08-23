@@ -23,6 +23,6 @@ var takeANumber = function(katzDeli, newCustomer) {
       for(var i=0;i<deliLine.length;i++){
         deliStr=deliStr+(deliLine.indexOf(deliLine[i])+1)+': '+deliLine[i]+', ';
       }
-      console.log("The line is currently: " + deliStr.slice(0,deliStr.length-2));
+      return "The line is currently: " + deliStr.slice(0,deliStr.length-2);
     }
   }
