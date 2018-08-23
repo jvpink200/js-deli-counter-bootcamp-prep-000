@@ -20,7 +20,7 @@ var takeANumber = function(katzDeli, newCustomer) {
     }
   }
   currentLine(katzDeliLine); // "The line is currently: 1. Ada, 2. Grace, 3. Kent"
-  
+
   function nowServing(arr) {
     var firstPerson = [];
     if (arr.length < 1) {
