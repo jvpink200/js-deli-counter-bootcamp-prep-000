@@ -14,7 +14,7 @@ var takeANumber = function(katzDeli, newCustomer) {
       return 'The line is currently empty.';
     } else {
       for (var i = 0; i < arr.length; i++) {
-        empty.push(arr.indexOf(arr[i]) + 1, '.', arr[i], ',');
+        empty.push(arr.indexOf(arr[i]) + 1, '. ', arr[i], ',');
       }
       return 'The line is currently: ' + empty.join('');
     }
