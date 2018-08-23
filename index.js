@@ -18,7 +18,7 @@ var takeANumber = function(katzDeli, newCustomer) {
   function currentLine(deliLine){
     var deliStr = '';
     if(deliLine.length === 0){
-      console.log("The line is currently empty.");
+      return "The line is currently empty."
     } else {
       for(var i=0;i<deliLine.length;i++){
         deliStr=deliStr+(deliLine.indexOf(deliLine[i])+1)+': '+deliLine[i]+', ';
